@@ -19,3 +19,13 @@ New repo, nothing built yet. Stack to be decided.
 - Save agreed designs and plans as Markdown in `docs/`.
 - Commit on a feature branch; push, merge or deploy only with the owner's OK.
 - Browser checks: serve over HTTP, screenshots under `.playwright-mcp/`.
+
+## Agent skills
+
+### Issue tracker
+
+GitHub Issues on amdsaad/changelog-wall, via the gh CLI. See `docs/agents/issue-tracker.md`.
+
+### Domain docs
+
+Single-context: one `GLOSSARY.md` and `docs/adr/` at the repo root, created lazily. See `docs/agents/domain.md`.
