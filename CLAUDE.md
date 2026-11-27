@@ -4,14 +4,14 @@ A public page listing what the owner shipped each week across their projects (th
 
 ## Status
 
-New repo, nothing built yet. Stack to be decided.
+Stack decided (`docs/adr/0001-stack.md`): static Nuxt 4 site (`nuxt generate`) with `@nuxt/content` entries in git, reviewed by PR (`status: draft` until merged), opt-in `repos.yml` allowlist, hosted on Cloudflare Workers static assets. Only a bare Nuxt scaffold exists so far.
 
 ## Open questions (settle before building)
 
 - **Source:** where entries come from: git history across the repos, merged PRs, hand-written notes, or a draft the owner edits before it goes live.
 - **What counts as shipped:** merged to main, deployed, or released.
 - **Private repos:** some repos are private (vps, learning, factory-lab, ...): which appear, and how much of their detail is shown.
-- **Stack and hosting:** static site generated from data files vs. an app; where it's served (the VPS, Cloudflare, or a section of amdsaad.com).
+- **Domain:** a subdomain, or a path behind amdsaad.com (stack and hosting are settled in ADR 0001).
 
 ## Rules
 
